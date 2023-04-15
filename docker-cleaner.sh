@@ -20,4 +20,3 @@ fi
 echo "$LOG_INFO" >> "$LOG_PATH" 2>&1
 echo "Success: $LOG_INFO"
 
-# @daily /home/zugzwang/bash_srcipts/docker-cleaner.sh
