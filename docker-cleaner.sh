@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# You can add this script to crontab task.
 echo "Docker cleaner: Start removing all unused containers, networks, images."
 
 CURRENT_MOUNTH=$(date "+%Y-%m")
