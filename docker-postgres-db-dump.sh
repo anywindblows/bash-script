@@ -51,3 +51,4 @@ if [ $count -gt $savedDumpsCount ]; then
   oldest=$(ls -t $dumpPath | tail -1)
   rm $dumpPath/$oldest
 fi
+exit
