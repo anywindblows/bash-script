@@ -19,3 +19,4 @@ fi
 
 echo -e "$logInfo" >>"$logPath" 2>&1
 echo -e "$logInfo"
+exit
