@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Author: Alexander Kondratev
+# Github: https://github.com/anywindblows
+# You can add this script to cron task.
+
 CURRENT_DATE=$(date +"%d_%m_%Y")
 FILE_PATH="/your/gitlab/path/here/"
 CLOUD_PATH="remote:your-path/here"
