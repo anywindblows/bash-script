@@ -6,7 +6,7 @@
 
 CURRENT_DATE=$(date +"%d_%m_%Y")
 FILE_PATH="/your/gitlab/path/here/"
-CLOUD_PATH="remote:your-path/here"
+CLOUD_PATH="remote:your-path/here/"
 
 echo "Создание бекапа конфигурационных файлов GitLab..."
 docker exec -it gitlab gitlab-ctl backup-etc
